@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "@core/*": ["./src/core/*"],
+            "@hooks/*":  ["./src/hooks/*"],
+            "@shared/*": ["./src/shared/*"],
+            "@assets/*": ["./src/assets/*"]
+        }
+    }
+}

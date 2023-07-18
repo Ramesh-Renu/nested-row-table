@@ -1,0 +1,98 @@
+.register {
+    /* background-color: #3aaf9f;*/
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto 0;
+    position: relative;
+    .box-deign {
+        position: absolute;
+        max-width: 320px;
+        min-height: 460px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 18px;
+        top: 40px;
+        left: 0;
+        right: 0;
+        // height: 240px;
+        border-radius: 25px;
+        box-shadow: -1px 6px 12px 0px #5f5f5f;
+        h2 {
+            color: #3aaf9f;
+            text-align: center;
+            margin: 0 0 20px 0;
+            font-weight: 500;
+        }
+        label {
+            display: block;
+            margin: 8px 0 8px;
+            font-weight: 500;
+        }
+        .submit-btn {
+            display: block;
+            width: 50%;
+            margin: 20px auto 0px;
+            height: 35px;
+            border-radius: 23px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: 1px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            background-color:#3aaf9f;
+            color:  #ffffff;
+            &:hover {
+                background-color: #ffffff;
+                color: #3aaf9f;
+                border: 1px solid #3aaf9f;
+            }
+
+        }
+        input {
+            height: 35px;
+            max-width: 92%;
+            width: 100%;
+            border: 1px solid #dbdbdb;
+            border-radius: 2px;
+            padding: 2px 10px;
+            line-height: 25px;
+            background-color: #eeeeee;
+            &::placeholder {
+                color: #c0c0c0;
+            }
+        }
+        & a {
+            text-decoration: none;
+            color: inherit;
+        .gotoLogin-btn {
+            margin: 8px auto 0;
+            width: 100px;
+            height: 30px;
+            display: block;
+            border-radius: 50px;
+            border: 1px solid #1a31d5;
+            background-color: #ffffff;
+            color: #1a31d5;
+            font-weight: 600;
+            font-style: normal;
+            cursor: pointer;
+            padding: 0;
+
+            &:hover{
+                background-color:#1a31d5;
+                color:  #ffffff;
+            }
+        }
+        }
+       .already-acc {
+            font-size: 13px;
+            font-weight: 500;
+            font-style: normal;
+            text-align: center;
+            margin: 20px auto 10px;
+        }
+    }
+
+}

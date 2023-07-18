@@ -1,0 +1,31 @@
+.projectlist {
+    &__heading {
+        font-size: 20px;
+        line-height: 150%;
+        margin: 0 auto 20px;
+        padding: 0px 10px 4px;
+        color: #918c8c;
+    }
+        .container-body table.resource-management tr {
+            &.TeamchildList{
+                    & td{
+                    background-color: #f1f1f1;
+                    }
+                }
+            &.InnerChildDataCreate {
+                border-top: 1px solid #ebebeb;
+                border-bottom: 1px solid #ebebeb;
+                background-color:#f5f5f5;;
+                td{
+                    background-color:#f5f5f5;
+                }
+            }
+            &.TeamchildList {
+                position: relative;
+                td {
+                    padding-bottom: 8px;
+                    padding-top: 8px;
+                }
+            }
+        }
+}

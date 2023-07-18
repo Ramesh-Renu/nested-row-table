@@ -1,0 +1,36 @@
+.departmentPage {
+    &__heading {
+
+        font-size: 20px;
+        line-height: 150%;
+        margin: 0 auto 20px;
+        padding: 0px 10px 4px;
+        color: #918c8c;
+        /*position: relative;
+        background: #263687;
+        border: 2px solid #475259;*/
+          /*  &:after, &:before {
+                right: 100%;
+                top: 50%;
+                border: solid transparent;
+                content: "";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none
+            }
+            
+            &:after {
+                border-color: rgba(38, 54, 135, 0);
+                border-right-color: #263687;
+                border-width: 20px;
+                margin-top: -20px;
+            }
+            &:before {
+                border-color: rgba(71, 82, 89, 0);
+                border-right-color: #475259;
+                border-width: 23px;
+                margin-top: -23px;
+            }*/
+        }
+}
